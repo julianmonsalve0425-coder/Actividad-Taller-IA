@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portafolio profesional de desarrollo de software con proyectos web y aplicaciones funcionales.">
+  <title>DevCore | Portafolio Profesional</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Encabezado y Navegación Principal -->
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="#hero" class="logo">Dev<span>Core</span></a>
+      
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menú de navegación" aria-expanded="false">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </button>
+
+      <nav class="site-nav" id="siteNav">
+        <ul class="nav-list">
+          <li><a href="#hero" class="nav-link">Inicio</a></li>
+          <li><a href="#proyectos" class="nav-link">Proyectos</a></li>
+          <li><a href="#habilidades" class="nav-link">Habilidades</a></li>
+          <li><a href="#contacto" class="nav-link btn-nav">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Sección Hero -->
+    <section id="hero" class="hero-section">
+      <div class="container hero-container">
+        <p class="hero-subtitle">Desarrollador de Software</p>
+        <h1 class="hero-title">Construyendo soluciones web escalables, accesibles y robustas.</h1>
+        <p class="hero-description">
+          Especializado en arquitectura frontend semántica, optimización de rendimiento y desarrollo web basado en estándares modernos.
+        </p>
+        <div class="hero-actions">
+          <a href="#contacto" class="btn btn-primary">Iniciar Conversación</a>
+          <a href="#proyectos" class="btn btn-secondary">Explorar Proyectos</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección de Proyectos Destacados -->
+    <section id="proyectos" class="projects-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Proyectos Destacados</h2>
+          <p>Muestras de software construidas priorizando funcionalidad, arquitectura limpia y experiencia de usuario.</p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Tarjeta 1 -->
+          <article class="project-card">
+            <div class="card-media">
+              <span class="media-placeholder">App Web</span>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Gestor Financiero Personal</h3>
+              <p class="card-description">Plataforma interactiva con autenticación segura, persistencia de datos y dashboard analítico.</p>
+              <div class="tech-stack">
+                <span class="badge">FastAPI</span>
+                <span class="badge">JavaScript</span>
+                <span class="badge">MySQL</span>
+              </div>
+              <div class="card-links">
+                <a href="#contacto" class="link-action">Ver Detalles &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Tarjeta 2 -->
+          <article class="project-card">
+            <div class="card-media">
+              <span class="media-placeholder">UI / E-Commerce</span>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Interfaz Modular CampusShop</h3>
+              <p class="card-description">Maquetación responsive completa desarrollada con HTML5 semántico y CSS3 modular sin dependencias.</p>
+              <div class="tech-stack">
+                <span class="badge">HTML5</span>
+                <span class="badge">CSS Grid</span>
+                <span class="badge">Mobile First</span>
+              </div>
+              <div class="card-links">
+                <a href="#contacto" class="link-action">Ver Detalles &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Tarjeta 3 -->
+          <article class="project-card">
+            <div class="card-media">
+              <span class="media-placeholder">Full Stack</span>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Sistema de Reservas</h3>
+              <p class="card-description">Control de mesas y reservas en tiempo real con roles de usuario, validaciones y OAuth integrado.</p>
+              <div class="tech-stack">
+                <span class="badge">Node.js</span>
+                <span class="badge">REST API</span>
+                <span class="badge">Auth0</span>
+              </div>
+              <div class="card-links">
+                <a href="#contacto" class="link-action">Ver Detalles &rarr;</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección de Habilidades Técnicas -->
+    <section id="habilidades" class="skills-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Habilidades Técnicas</h2>
+          <p>Conocimientos organizados por áreas de especialización y metodologías de ingeniería de software.</p>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-group">
+            <h3>Frontend Moderno</h3>
+            <ul class="skill-list">
+              <li>HTML5 Semántico y Accesibilidad (WCAG)</li>
+              <li>CSS3 Avanzado (Grid, Flexbox, Variables)</li>
+              <li>JavaScript Vanilla (ES6+, Manipulación DOM)</li>
+              <li>Arquitectura de componentes nativos</li>
+            </ul>
+          </div>
+
+          <div class="skill-group">
+            <h3>Backend y Datos</h3>
+            <ul class="skill-list">
+              <li>Desarrollo de APIs RESTful (Python/FastAPI, PHP)</li>
+              <li>Bases de Datos Relacionales (MySQL, Modelado SQL)</li>
+              <li>Autenticación basada en Tokens (JWT)</li>
+              <li>Estructuración de servicios desacoplados</li>
+            </ul>
+          </div>
+
+          <div class="skill-group">
+            <h3>Herramientas y Calidad</h3>
+            <ul class="skill-list">
+              <li>Control de Versiones (Git, flujos en GitHub)</li>
+              <li>Entornos Linux y terminal avanzada</li>
+              <li>Metodologías Ágiles (Scrum, Tableros Kanban)</li>
+              <li>Depuración y auditorías en navegadores</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contacto" class="contact-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Contacto Profesional</h2>
+          <p>¿Tienes una oportunidad técnica o un proyecto en mente? Escríbeme directamente.</p>
+        </div>
+
+        <form id="contactForm" class="contact-form" novalidate>
+          <div class="form-group">
+            <label for="fullName">Nombre Completo <span class="required">*</span></label>
+            <input type="text" id="fullName" name="fullName" required placeholder="Tu nombre y apellido">
+            <span class="field-error" id="fullNameError"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Correo Electrónico <span class="required">*</span></label>
+            <input type="email" id="email" name="email" required placeholder="ejemplo@correo.com">
+            <span class="field-error" id="emailError"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="subject">Asunto <span class="required">*</span></label>
+            <input type="text" id="subject" name="subject" required placeholder="Propuesta de proyecto o vacante">
+            <span class="field-error" id="subjectError"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Mensaje <span class="required">*</span></label>
+            <textarea id="message" name="message" rows="5" required placeholder="Describe los detalles de tu consulta..."></textarea>
+            <span class="field-error" id="messageError"></span>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-block">Enviar Mensaje</button>
+          
+          <div id="formFeedback" class="form-feedback" aria-live="polite"></div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Pie de Página -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>&copy; 2026 DevCore. Desarrollado con HTML semántico, CSS moderno y JS puro.</p>
+      <a href="#hero" class="back-to-top">Volver arriba &uarr;</a>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
